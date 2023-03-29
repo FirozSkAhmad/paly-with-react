@@ -31,6 +31,7 @@ const AddProduct = ({ fn }) => {
         itemMonth: NumbersTomonths[month],
         itemyear: year,
       });
+      setData({itemName: "", itemDate: "" })
     }
   }
   return (
