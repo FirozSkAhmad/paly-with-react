@@ -1,0 +1,58 @@
+.addcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  padding: 10px 0;
+  height: 200px;
+  border-radius: 10px;
+  min-width: 500px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+}
+
+.inputfields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fields{
+    height: 60px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+input[type=text], input[type=date] {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+
+  span{
+    margin: 0;
+    color: rgb(126, 2, 2);
+  }
